@@ -43,8 +43,8 @@ This application is a rule engine that determines user eligibility based on attr
 
 1. **Clone the Repository**
    ```bash
-   git clone "https://github.com/Santosh-2003-sahoo/App1-Rule-Engine-with-AST.git"
-   cd rule-engine
+   git clone "[https://github.com/Santosh-2003-sahoo/App1-Rule-Engine-with-AST.git](https://github.com/mayank-pathakk/rule-based-AST)"
+   cd rule-based-AST
    ```
 
 2. **Install Backend Dependencies**
@@ -60,11 +60,17 @@ This application is a rule engine that determines user eligibility based on attr
    ```bash
    mongod
    ```
+5. **Create and initialize .env file**
+    Add the following fields in the .env file
+   ```bash
+   MONGO_URI={Your mongo db cluster connection URL}
+   PORT=3000
+   ```
 
-4. **Start the Backend Server**
+6. **Start the Project**
 
    ```bash
-   nodemon server.js
+   npm start
    ```
 
 ## API Endpoints
@@ -141,8 +147,4 @@ variable operator value
      }
      ```
 
-## Running Tests
-
-You can add and run tests to ensure everything is working correctly. 
-```
 created by: Mayank Pathak
