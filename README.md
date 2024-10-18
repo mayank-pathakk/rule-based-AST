@@ -1,5 +1,5 @@
 # Rule Engine Application
-Hosted link: [https://rule-based-ast.vercel.app/](https://rule-based-ast.vercel.app/)
+Hosted link: [https://rule-based-ast.onrender.com](https://rule-based-ast.onrender.com)
 
 ## Overview
 
