@@ -43,7 +43,7 @@ This application is a rule engine that determines user eligibility based on attr
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/mayank-pathakk/rule-based-AST](https://github.com/mayank-pathakk/rule-based-AST)
+   git clone https://github.com/mayank-pathakk/rule-based-AST
    cd rule-based-AST
    ```
 
