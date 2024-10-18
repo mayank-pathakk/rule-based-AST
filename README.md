@@ -73,6 +73,18 @@ This application is a rule engine that determines user eligibility based on attr
    npm start
    ```
 
+## Using the app
+
+1.) Add the rules by providing the rule name and rule
+```bash
+Rule Name: rule1
+Rule: ((age > 30 AND department = 'Sales') OR (age < 25 AND
+department = 'Marketing')) AND (salary > 50000 OR experience >
+5)
+```
+
+2.) Evaluate JSON data based on the added rules
+
 ## API Endpoints
 
 1. **Create a Rule**
